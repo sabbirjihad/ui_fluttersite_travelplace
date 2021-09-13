@@ -33,7 +33,7 @@ class HomePage extends StatelessWidget {
                 children: [
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
+                    children: const [
                       Text(
                         'Oeschinen Lake Campground',
                         style: TextStyle(
@@ -78,7 +78,7 @@ class HomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Column(
-                  children:  [
+                  children:  const [
                     // ElevatedButton(
                     //   onPressed: () {},
                     //   child: Icon(
@@ -107,7 +107,7 @@ class HomePage extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.only(left: 56, right: 56),
                   child: Column(
-                    children: [
+                    children: const [
                       // ElevatedButton(
                       //   onPressed: () {},
                       //   child: Icon(
@@ -116,7 +116,7 @@ class HomePage extends StatelessWidget {
                       //   ),
                       // ),
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: EdgeInsets.all(8.0),
                         child: Icon(
                           Icons.near_me,
                           color: Colors.lightBlue,
@@ -135,7 +135,7 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
                 Column(
-                  children: [
+                  children: const [
                     // ElevatedButton(
                     //   onPressed: () {},
                     //   child: Icon(
@@ -144,7 +144,7 @@ class HomePage extends StatelessWidget {
                     //   ),
                     // ),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: EdgeInsets.all(8.0),
                       child: Icon(
                         Icons.share,
                         color: Colors.lightBlue,
